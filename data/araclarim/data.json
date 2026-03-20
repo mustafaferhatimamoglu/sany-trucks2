@@ -1,0 +1,85 @@
+[
+  {
+    "id": "elektrikli-damperli-kamyon",
+    "slug": "elektrikli-damperli-kamyon",
+    "name": "SANY Elektrikli Kamyon",
+    "model": "Damperli Kamyon : 6x4 / 8x4",
+    "description": "Sıfır Emisyonlu Ağır Hizmet Performansı. SANY'nin elektrikli güç platformu kullanılarak en zorlu saha koşullarında çalışmak üzere üretilmiştir. %100 Elektrikli mimarisi ile maksimum verimlilik sağlar.",
+    "capacity": "55.000 KG",
+    "specs": {
+      "Sürücü Konumu": "Sol Direksiyon",
+      "Motor Tipi": "Yüksek performanslı elektrikli tahrik aksı",
+      "Nominal Güç": "315 kW (6x4) / 460 kW (8x4)",
+      "Boş Ölçüler": "9.500 × 2.550 × 3.600 mm",
+      "Dingil Mesafesi": "3.800 mm",
+      "Boş Ağırlık": "22.000 kg",
+      "Teknik Kombine Ağırlık": "6x4: 55.000 kg | 8x4: 80.000 kg",
+      "Azami Bürüt Ağırlık": "55.000 kg (6x4) / 80.000 kg (8x4)"
+    },
+    "key_stats": [
+      { "value": "460", "unit": "kW", "label": "MAKSİMUM GÜÇ" },
+      { "value": "80.000", "unit": "KG", "label": "AZAMİ AĞIRLIK" },
+      { "value": "0", "unit": "CO2", "label": "EMİSYON" }
+    ],
+    "features": ["Sıfır Emisyon", "Akıllı Sürüş, Gerçek Kontrol", "Yüksek Dayanıklılık"],
+    "image": "/images/damperli.png"
+  },
+  {
+    "id": "636-kwh-elektirikli-cekici",
+    "slug": "636-kwh-elektirikli-cekici",
+    "name": "Elektirikli Çekici",
+    "model": "Tır : 4x2 636 kW",
+    "description": "Uzun yol taşımacılığında yeni bir dönem. KEV113263686 ana ünite koduna sahip mükemmel lojistik tırı. Lojistik ve taşımacılık operasyonlarında verimliliği maksimize eder.",
+    "capacity": "42.000 KG",
+    "specs": {
+      "Sürücü Konumu": "Sol Direksiyon",
+      "Motor Tipi": "Yüksek performanslı çift motorlu elektirikli aks",
+      "Batarya Kapasitesi": "636 kWh",
+      "Nominal Güç / Tork": "420 kW / 1000 Nm",
+      "Tepe Güç / Tork": "739 kW / 1760 Nm",
+      "Şanzıman": "Çift vitesli (Vites Sayısı 2)",
+      "Şanzıman PTO": "Nominal çıkışta 980 Nm",
+      "Boş Ölçüler": "6.640 x 2.540 x 3.870 mm",
+      "Dingil Mesafesi": "4000 mm",
+      "Boş Ağırlık": "10.900 kg",
+      "Teknik Kombine Ağırlık": "42.000 kg",
+      "Azami Bürüt Ağırlık": "20.000 kg"
+    },
+    "key_stats": [
+      { "value": "739", "unit": "kW", "label": "TEPE GÜÇ" },
+      { "value": "42.000", "unit": "KG", "label": "KOMBİNE AĞIRLIK" },
+      { "value": "636", "unit": "kWh", "label": "BATARYA KAPASİTESİ" }
+    ],
+    "features": ["Çift Vitesli Şanzıman", "Elektrikli Performans Mimarisi", "Uzun Menzilli Operasyon"],
+    "image": "/images/cekici.png"
+  },
+  {
+    "id": "elektrikli-hafif-ticari",
+    "slug": "elektrikli-hafif-ticari",
+    "name": "Elektrikli Hafif Ticari",
+    "model": "Van / Kasalı / Depolama",
+    "description": "Şehir içi ve lojistik uygulamalar için %100 Elektrikli çevreci ve pratik ticari araç çözümü. Sınıfındaki en geniş kullanım alanı ve üstün menzil teknolojisi.",
+    "capacity": "106 kWh",
+    "specs": {
+      "Motor Tipi": "%100 Elektirikli",
+      "Batarya Kapasitesi": "106 kW",
+      "Nominal Güç": "60 / 115 kW",
+      "Tepe Güç / Tork": "135 / 350 kW",
+      "Araç Genişliği": "2040 mm",
+      "Dingil Mesafesi": "3360 mm",
+      "Uzunluk (Van)": "5595 x 2185 × 3150 mm",
+      "Ön / Arka Dingil": "2T / 4T",
+      "Menzil (Şehir içi)": "300 km",
+      "Azami Hız": "90 km/s",
+      "Direksiyon & Fren": "EPS, ABD + EBD",
+      "Boş Ağırlık": "2325 kg (Şasi) / 2960 kg (Van)"
+    },
+    "key_stats": [
+      { "value": "300", "unit": "KM", "label": "ŞEHİR İÇİ MENZİL" },
+      { "value": "135", "unit": "kW", "label": "TEPE GÜÇ" },
+      { "value": "106", "unit": "kWh", "label": "BATARYA KAPASİTESİ" }
+    ],
+    "features": ["300 km Şehir İçi Menzil", "Çok Yönlü Kasa Tipleri", "Düşük İşletme Maliyeti"],
+    "image": "/images/hafif.png"
+  }
+]
