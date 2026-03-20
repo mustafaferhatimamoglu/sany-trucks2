@@ -7,32 +7,39 @@
     "futureSection": {
       "title": "GELECEK BURADA ÜRETİLİYOR",
       "subtitle": "Daha düşük maliyet. Daha yüksek verim. Daha güçlü operasyon.",
+      "content": "SANY'nin FMT ile elektrikli performans mimarisi, lojistiğin kurallarını baştan yazıyor. Türkiye için tasarlanan sürdürülebilir mobilite çözümleri ile geleceğe hazırlanın.",
+      "buttonText": "Hakkımızda",
       "cta": "HAKKIMIZDA",
-      "bgImage": "https://www.sanytrucksturkiye.com/wp-content/uploads/2026/02/SANY-IKILI-ARAC-scaled.png"
+      "bgImage": "/images/kurumsal1.png"
     },
     "corePerformance": {
       "title": "ELEKTRİKLİ PERFORMANSIN ÇEKİRDEĞİ",
-      "content": "SANY’nin üçlü elektrik mimarisi (Batarya – Elektrik Motoru – Akıllı Kontrol Sistemi), yüksek enerji yoğunluğu, optimize edilmiş güç aktarımı ve gerçek zamanlı sistem yönetimi ile ağır hizmet segmentinde sürdürülebilir performans sunar.",
-      "cta": "DAHA FAZLA BİLGİ AL",
-      "image": "https://www.sanytrucksturkiye.com/wp-content/uploads/2026/01/%E4%B8%89%E7%94%B5-%E8%8B%B1%E6%96%87-460x460.jpg"
+      "content": "SANY'nin üçlü elektrik mimarisi (Batarya – Elektrik Motoru – Akıllı Kontrol Sistemi), yüksek enerji yoğunluğu, optimize edilmiş güç aktarımı ve gerçek zamanlı sistem yönetimi ile ağır hizmet segmentinde sürdürülebilir performans sunar.",
+      "points": [
+        "Yüksek enerji yoğunluklu batarya paketi ile maksimum depolama ve uzun menzil kapasitesi. Zorlu şartlarda bile sıfır menzil kaygısı.",
+        "Optimize edilmiş güç aktarımı sayesinde %97 motor verimliliği. Geleneksel araçlara kıyasla yakıt maliyetlerinde %70'e varan tasarruf.",
+        "Gerçek zamanlı akıllı kontrol sistemi ile anlık şarj optimizasyonu, sürüş koşullarına adaptasyon ve uzaktan araç yönetimi."
+      ],
+      "cta": "DAHA FAZLA BİLGİ AL"
     },
     "news": {
       "title": "GÜNCEL HABERLER",
+      "readMoreText": "Devamını Oku",
       "items": [
         {
           "title": "SANY Elektrikli Kamyonlarla Lojistikte Yeni Dönem",
           "date": "9 Temmuz 2024",
-          "image": "https://www.sanytrucksturkiye.com/wp-content/uploads/2024/02/ChatGPT-Image-4-Mar-2026-15_32_07-840x560.png"
+          "image": "/images/news-1.jpg"
         },
         {
-          "title": "Türkiye’nin İlk %100 Elektrikli Ağır Ticari Filosu Teslim Edildi",
+          "title": "Türkiye'nin İlk %100 Elektrikli Ağır Ticari Filosu Teslim Edildi",
           "date": "8 Temmuz 2024",
-          "image": "https://www.sanytrucksturkiye.com/wp-content/uploads/2024/02/ChatGPT-Image-4-Mar-2026-13_25_08-840x560.png"
+          "image": "/images/news-2.jpg"
         },
         {
           "title": "Hızlı Şarj Altyapısı ve Geleceğin Şehirleri",
           "date": "7 Temmuz 2024",
-          "image": "https://www.sanytrucksturkiye.com/wp-content/uploads/2024/02/ChatGPT-Image-4-Mar-2026-15_30_08-840x560.png"
+          "image": "/images/news-3.jpg"
         }
       ]
     },
@@ -55,11 +62,11 @@
     "email": "info@fmtotomotiv.com"
   },
   "sanyKimdir": {
-    "text": "SANY, ağır hizmet makineleri ve ticari araçlar alanında dünya genelinde faaliyet gösteren, köklü ve güçlü bir teknoloji markasıdır. Küresel ölçekte yürüttüğü Ar-Ge çalışmaları ve ileri üretim teknolojileri sayesinde, sektörün öncü firmaları arasında yer alır. Elektrifikasyon, dijitalleşme ve akıllı üretim sistemleri SANY’nin global stratejisinin merkezinde bulunur. Özellikle elektrikli ağır ticari araçlar ve çekici segmentinde geliştirdiği yüksek kapasiteli batarya sistemleri, uzun menzil çözümleri ve dayanıklı şasi yapılarıyla, zorlu operasyon koşullarına uygun ürünler sunar. SANY, yalnızca bugünün ihtiyaçlarına değil, geleceğin çevresel ve endüstriyel gerekliliklerine odaklanan bir yaklaşım benimser. Bu doğrultuda sürdürülebilirlik, ürün geliştirme süreçlerinin ayrılmaz bir parçasıdır. FMT ile kurulan stratejik iş birliği sayesinde SANY, küresel mühendislik gücünü Türkiye pazarına taşımakta ve yerel üretim modeliyle desteklemektedir. Bu ortaklık; global teknoloji ile yerel operasyon kabiliyetinin birleştiği, uzun vadeli ve sürdürülebilir bir yapı sunar."
+    "text": "SANY, ağır hizmet makineleri ve ticari araçlar alanında dünya genelinde faaliyet gösteren, köklü ve güçlü bir teknoloji markasıdır. Küresel ölçekte yürüttüğü Ar-Ge çalışmaları ve ileri üretim teknolojileri sayesinde, sektörün öncü firmaları arasında yer alır. Elektrifikasyon, dijitalleşme ve akıllı üretim sistemleri SANY'nin global stratejisinin merkezinde bulunur. Özellikle elektrikli ağır ticari araçlar ve çekici segmentinde geliştirdiği yüksek kapasiteli batarya sistemleri, uzun menzil çözümleri ve dayanıklı şasi yapılarıyla, zorlu operasyon koşullarına uygun ürünler sunar. SANY, yalnızca bugünün ihtiyaçlarına değil, geleceğin çevresel ve endüstriyel gerekliliklerine odaklanan bir yaklaşım benimser. Bu doğrultuda sürdürülebilirlik, ürün geliştirme süreçlerinin ayrılmaz bir parçasıdır. FMT ile kurulan stratejik iş birliği sayesinde SANY, küresel mühendislik gücünü Türkiye pazarına taşımakta ve yerel üretim modeliyle desteklemektedir. Bu ortaklık; global teknoloji ile yerel operasyon kabiliyetinin birleştiği, uzun vadeli ve sürdürülebilir bir yapı sunar."
   },
   "fmtKimdir": {
-    "text1": "SANY, ağır sanayi makineleri ve ticari kamyonlar alanında dünya genelinde ilk sıralarda yer alan, küresel ölçekte faaliyet gösteren bir sanayi ve teknoloji grubudur. Forbes Global 2000 listesinde yer alan SANY; 150’den fazla ülkede yürüttüğü operasyonlar, yüksek mühendislik kapasitesi ve üretim ölçeğiyle ağır ticari kamyon sektöründe referans kabul edilen markalardan biridir.",
-    "text2": "Tokgöz Grup ise 1970’lerden bu yana inşaat-beton, madencilik, gastronomi ve enerji sektörlerinde faaliyet gösteren sanayileşme ve üretim dönüşümlerinde aktif rol üstlenen köklü bir Türk sanayi grubudur. Güçlü saha deneyimi, operasyonel kabiliyeti ve uzun vadeli yatırım vizyonu ile tanınan Tokgöz Grup; çevreye duyarlılık, sürdürülebilirlik ve etik değerlere bağlılık ilkeleri doğrultusunda faaliyetlerini sürdürmektedir.",
-    "text3": "Bu iki güçlü yapının stratejik iş birliğiyle FMT, elektrikli ağır ve hafif ticari kamyonlar alanında Türkiye’nin dönüşüm sürecine yön vermek amacıyla kurulmuş, üretim ve operasyon odağı güçlü bir otomotiv yapılanması olarak doğmuştur. FMT; elektrikli çekici, ağır ticari kamyon ve hafif ticari kamyon segmentlerinde faaliyet gösterirken, yalnızca araç tedarik eden bir yapı olmanın ötesine geçerek uçtan uca bir mobilite ve operasyon ekosistemi sunmayı hedeflemektedir."
+    "text1": "SANY, ağır sanayi makineleri ve ticari kamyonlar alanında dünya genelinde ilk sıralarda yer alan, küresel ölçekte faaliyet gösteren bir sanayi ve teknoloji grubudur. Forbes Global 2000 listesinde yer alan SANY; 150'den fazla ülkede yürüttüğü operasyonlar, yüksek mühendislik kapasitesi ve üretim ölçeğiyle ağır ticari kamyon sektöründe referans kabul edilen markalardan biridir.",
+    "text2": "Tokgöz Grup ise 1970'lerden bu yana inşaat-beton, madencilik, gastronomi ve enerji sektörlerinde faaliyet gösteren sanayileşme ve üretim dönüşümlerinde aktif rol üstlenen köklü bir Türk sanayi grubudur. Güçlü saha deneyimi, operasyonel kabiliyeti ve uzun vadeli yatırım vizyonu ile tanınan Tokgöz Grup; çevreye duyarlılık, sürdürülebilirlik ve etik değerlere bağlılık ilkeleri doğrultusunda faaliyetlerini sürdürmektedir.",
+    "text3": "Bu iki güçlü yapının stratejik iş birliğiyle FMT, elektrikli ağır ve hafif ticari kamyonlar alanında Türkiye'nin dönüşüm sürecine yön vermek amacıyla kurulmuş, üretim ve operasyon odağı güçlü bir otomotiv yapılanması olarak doğmuştur. FMT; elektrikli çekici, ağır ticari kamyon ve hafif ticari kamyon segmentlerinde faaliyet gösterirken, yalnızca araç tedarik eden bir yapı olmanın ötesine geçerek uçtan uca bir mobilite ve operasyon ekosistemi sunmayı hedeflemektedir."
   }
 }

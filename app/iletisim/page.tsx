@@ -1,6 +1,11 @@
 import Link from "next/link";
 import sayfalar from "../../data/icerik/sayfalar.json";
 
+export const metadata = {
+  title: "İletişim | Sany Trucks Türkiye",
+  description: "Sany Trucks Türkiye ile iletişime geçin. ALCI OSB MAH. 2019 CAD. NO:3 SİNCAN/ANKARA. Tel: 444 01 38",
+};
+
 export default function Iletisim() {
   const { contact } = sayfalar;
 
@@ -78,6 +83,26 @@ export default function Iletisim() {
           </form>
         </div>
       </section>
+
+      {/* Google Maps */}
+      <section className="w-full border-t border-[#2a2a2a]">
+        <div className="w-full h-[450px] relative">
+          <div className="absolute top-4 left-4 z-10 bg-[#0d0d0d]/90 border border-[#2a2a2a] px-4 py-2">
+            <p className="text-white font-bold text-xs tracking-widest uppercase">ALCI OSB MAH. 2019 CAD. NO:3 SİNCAN/ANKARA</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.867!2d32.5838!3d39.9752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d33b99b7e2f5a5%3A0x4f1234567890abcd!2sALCI%20OSB%20MAH.%202019%20CAD.%20NO%3A3%2C%20Sincan%2C%20Ankara!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str"
+            width="100%"
+            height="450"
+            style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg)' }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Sany Trucks Türkiye Konum"
+          />
+        </div>
+      </section>
     </div>
   );
 }
+
