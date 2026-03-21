@@ -87,13 +87,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {araclar.map((arac, index) => (
-              <div key={arac.id} className="group bg-[#111112] border border-[#2a2a2a] hover:border-sany-red transition-all duration-500 flex flex-col items-center p-8 relative overflow-hidden h-[550px] cursor-pointer">
+              <Link key={arac.id} href={`/araclar/${arac.slug}`} className="group bg-[#111112] border border-[#2a2a2a] hover:border-sany-red transition-all duration-500 flex flex-col items-center p-8 relative overflow-hidden h-[550px] block cursor-pointer">
                 {/* Background red glow on hover */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-sany-red/5 rounded-full blur-3xl group-hover:bg-sany-red/10 transition-all duration-700 pointer-events-none"></div>
 
-                <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-widest mb-2 z-10 text-center mt-4">
+                <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-widest mb-2 z-10 text-center mt-4 group-hover:text-sany-red transition-colors">
                   {arac.name.split(' ').map((word, i) => (
-                    <span key={i} className={i === 0 ? "text-sany-red" : ""}>{word} </span>
+                    <span key={i} className={i === 0 ? "text-sany-red group-hover:text-white transition-colors" : ""}>{word} </span>
                   ))}
                 </h3>
                 <p className="text-gray-500 text-xs tracking-[0.2em] uppercase font-bold mb-12 z-10">{arac.capacity}</p>
@@ -108,11 +108,11 @@ export default function Home() {
                     <span className="text-[10px] text-gray-500 tracking-widest uppercase mb-1">Max Güç</span>
                     <span className="text-sm font-black text-white">{arac.key_stats[0].value} {arac.key_stats[0].unit}</span>
                   </div>
-                  <Link href={`/araclar/${arac.slug}`} className="bg-[#1a1a1c] hover:bg-sany-red text-white w-12 h-12 flex items-center justify-center transition-colors">
+                  <div className="bg-[#1a1a1c] group-hover:bg-sany-red text-white w-12 h-12 flex items-center justify-center transition-colors">
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                  </Link>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -271,7 +271,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {news.items.map((item, index) => (
-              <div key={index} className="bg-[#0A0A0A] border border-[#2a2a2a] hover:border-[#444] group overflow-hidden transition-all duration-500 hover:-translate-y-2">
+              <Link key={index} href="/blog" className="block bg-[#0A0A0A] border border-[#2a2a2a] hover:border-[#444] group overflow-hidden transition-all duration-500 hover:-translate-y-2">
                 <div className="relative h-64 overflow-hidden">
                   <div className="absolute inset-0 bg-[#0A0A0A]/20 group-hover:bg-transparent transition-all z-10"></div>
                   {/* Using relative paths for news images too */}
@@ -284,12 +284,12 @@ export default function Home() {
                   <h3 className="text-white font-bold text-lg leading-snug mb-4 group-hover:text-sany-red transition-colors line-clamp-2">
                     {item.title}
                   </h3>
-                  <Link href="/category/blog" className="text-gray-500 font-bold text-xs uppercase tracking-[0.2em] hover:text-white transition-colors inline-flex items-center gap-2">
+                  <div className="text-gray-500 font-bold text-xs uppercase tracking-[0.2em] group-hover:text-white transition-colors inline-flex items-center gap-2">
                     {news.readMoreText}
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                  </Link>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
