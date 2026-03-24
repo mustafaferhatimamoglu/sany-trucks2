@@ -17,6 +17,9 @@ const menuItems = [
     label: 'ARAÇLAR',
     children: [
       { label: 'Tüm Kamyon Modelleri', href: '/kamyon-modelleri' },
+      { label: 'SANY Elektrikli Kamyon', href: '/araclar/elektrikli-damperli-kamyon' },
+      { label: 'Elektirikli Çekici', href: '/araclar/636-kwh-elektirikli-cekici' },
+      { label: 'Elektrikli Hafif Ticari', href: '/araclar/elektrikli-hafif-ticari' },
       { label: 'Batarya Teknolojileri', href: '/batarya-teknolojileri' },
       { label: 'Garanti ve Bakım', href: '/garanti-ve-bakim' },
     ],
@@ -24,6 +27,7 @@ const menuItems = [
   {
     label: 'HİZMETLER',
     children: [
+      { label: 'Hizmetlerimiz', href: '/hizmetlerimiz' },
       { label: 'Yetkili Servisler', href: '/yetkili-servisler' },
       { label: 'Bayilik Başvurusu', href: '/bayilik-basvurusu' },
     ],

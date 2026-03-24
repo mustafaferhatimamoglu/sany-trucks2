@@ -44,28 +44,28 @@ export default function Home() {
 
       {/* NEW: 1.5. Key Feature Icons Band */}
       <section className="w-full bg-[#111112] border-b border-[#2a2a2a] relative z-30">
-        <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center text-white">
-            <div className="flex flex-col items-center">
+        <div className="max-w-7xl mx-auto px-6 py-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 lg:divide-x divide-[#2a2a2a]">
+            <a href="/yetkili-servisler" className="group flex flex-col items-center text-center text-white px-8 py-12 hover:bg-[#1a1a1c] transition-colors cursor-pointer">
               <Icons.Shield />
-              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm">Yaygın Servis Ağı</h4>
-              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Türkiye genelinde anında müdahale ve kesintisiz operasyon güvencesi.</p>
-            </div>
-            <div className="flex flex-col items-center">
+              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm group-hover:text-sany-red transition-colors">Türkiye Geneli Servis</h4>
+              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Satış sonrası destek, hızlı müdahale, kesintisiz operasyon.</p>
+            </a>
+            <a href="/batarya-teknolojileri" className="group flex flex-col items-center text-center text-white px-8 py-12 hover:bg-[#1a1a1c] transition-colors cursor-pointer">
               <Icons.Battery />
-              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm">Zirve Teknolojisi</h4>
-              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Gelişmiş batarya yönetimiyle sınıfının en güvenli ve stabil değerleri.</p>
-            </div>
-            <div className="flex flex-col items-center">
+              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm group-hover:text-sany-red transition-colors">Güvenli Batarya Teknolojisi</h4>
+              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Yüksek çevrim dayanımı, stabil performans.</p>
+            </a>
+            <a href="/iletisim" className="group flex flex-col items-center text-center text-white px-8 py-12 hover:bg-[#1a1a1c] transition-colors cursor-pointer">
               <Icons.Trending />
-              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm">%70'e Varan Tasarruf</h4>
-              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Geleneksel yakıtlara kıyasla devasa oranda düşürülmüş işletme maliyetleri.</p>
-            </div>
-            <div className="flex flex-col items-center">
+              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm group-hover:text-sany-red transition-colors">Sahanıza Özel Tasarruf Analizi</h4>
+              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">Km başına maliyet, enerji gideri ve toplam sahip olma maliyeti.</p>
+            </a>
+            <a href="/hizmetlerimiz" className="group flex flex-col items-center text-center text-white px-8 py-12 hover:bg-[#1a1a1c] transition-colors cursor-pointer">
               <Icons.Zap />
-              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm">40 Dk. Hızlı Şarj</h4>
-              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">%20'den %80'e sadece 40 dakikada şarj olarak yola devam edin.</p>
-            </div>
+              <h4 className="font-bold tracking-widest uppercase mb-2 text-sm group-hover:text-sany-red transition-colors">40 Dakikada %80 Şarj</h4>
+              <p className="text-gray-500 text-xs leading-relaxed max-w-[200px]">DC hızlı şarj altyapısıyla kısa molalar, uzun işler.</p>
+            </a>
           </div>
         </div>
       </section>
