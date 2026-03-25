@@ -1,6 +1,7 @@
 import araclar from "../../../data/araclarim/data.json";
 import { notFound } from "next/navigation";
 import Link from 'next/link';
+import VehicleGallery from "../../components/VehicleGallery";
 
 export async function generateStaticParams() {
   return araclar.map((arac) => ({
@@ -19,21 +20,28 @@ export default async function UrunDetay(props: { params: Promise<{ slug: string 
   return (
     <div className="w-full bg-[#0A0A0A] min-h-screen text-white">
 
-      {/* Hero */}
-      <section className="relative w-full py-28 flex items-center justify-center overflow-hidden border-b border-[#2a2a2a]">
-        <div className="absolute inset-0 bg-cover bg-center opacity-15" style={{ backgroundImage: `url('${arac.image}')` }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/80 via-[#0A0A0A]/60 to-[#0A0A0A]" />
-        <div className="relative z-10 text-center px-6 max-w-4xl">
-          <div className="flex items-center justify-center gap-3 mb-6 text-xs text-gray-500 font-bold tracking-widest uppercase">
-            <Link href="/" className="hover:text-white transition-colors">Ana Sayfa</Link>
-            <span>/</span>
-            <Link href="/kamyon-modelleri" className="hover:text-white transition-colors">Araçlar</Link>
-            <span>/</span>
-            <span className="text-sany-red">{arac.name}</span>
+      {/* Compact Header */}
+      <section className="relative w-full pt-32 pb-10 border-b border-[#2a2a2a] bg-[#0A0A0A] overflow-hidden">
+        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-sany-red/50 to-transparent"></div>
+        <div className="absolute top-0 right-0 w-[600px] h-[300px] bg-sany-red/5 blur-[100px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div className="w-full lg:w-2/3 text-left">
+            <div className="flex items-center gap-3 mb-6 text-[10px] text-gray-500 font-bold tracking-[0.2em] uppercase">
+              <Link href="/" className="hover:text-white transition-colors">Ana Sayfa</Link>
+              <span className="text-[#333]">/</span>
+              <Link href="/kamyon-modelleri" className="hover:text-white transition-colors">Araçlar</Link>
+              <span className="text-[#333]">/</span>
+              <span className="text-sany-red">{arac.name}</span>
+            </div>
+            <h1 className="text-3xl md:text-5xl font-black uppercase tracking-widest text-white mb-2">{arac.name}</h1>
+            <span className="text-sany-red font-black tracking-[0.3em] text-xs uppercase block mb-6">{arac.model}</span>
+            <p className="text-gray-400 text-sm font-light leading-relaxed max-w-2xl">{arac.description}</p>
           </div>
-          <span className="text-sany-red font-bold tracking-[0.3em] text-sm uppercase block mb-4">{arac.model}</span>
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-widest leading-tight mb-6">{arac.name}</h1>
-          <p className="text-gray-400 text-lg font-light max-w-2xl mx-auto leading-relaxed">{arac.description}</p>
+          
+          <div className="hidden lg:flex w-1/3 justify-end items-center pointer-events-none">
+             <img src={arac.image} alt="Silhouette" className="h-[140px] w-auto object-contain grayscale opacity-20 sepia-[0.3] hue-rotate-[-50deg] mix-blend-screen" />
+          </div>
         </div>
       </section>
 
@@ -43,53 +51,13 @@ export default async function UrunDetay(props: { params: Promise<{ slug: string 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
             {/* LEFT: Gallery */}
-            <div className="lg:sticky lg:top-24">
-              {/* Main Image */}
-              <div className="relative bg-[#111112] border border-[#2a2a2a] overflow-hidden mb-4 group">
-                <img
-                  src={arac.image}
-                  alt={arac.name}
-                  className="w-full h-auto object-contain p-8 drop-shadow-2xl transition-transform duration-700 group-hover:scale-105"
-                  style={{ maxHeight: "420px", objectFit: "contain" }}
-                />
-                <div className="absolute top-4 right-4 bg-sany-red text-white text-[10px] font-black uppercase tracking-widest px-3 py-1">
-                  {arac.capacity}
-                </div>
-              </div>
-
-              {/* Thumbnail Row */}
-              <div className="grid grid-cols-6 gap-2 mb-4">
-                {[0, 1, 2, 3, 4, 5].map((i) => (
-                  <div
-                    key={i}
-                    className={`relative border overflow-hidden cursor-pointer transition-all ${
-                      i === 0 ? "border-sany-red" : "border-[#2a2a2a] hover:border-[#555]"
-                    }`}
-                  >
-                    <img
-                      src={arac.image}
-                      alt={`${arac.name} görsel ${i + 1}`}
-                      className="w-full h-14 object-cover opacity-70 hover:opacity-100 transition-opacity"
-                      style={{ filter: i !== 0 ? "grayscale(60%)" : "none" }}
-                    />
-                  </div>
-                ))}
-              </div>
-
-              {/* 360 View Selector */}
-              <div className="flex gap-0 border border-[#2a2a2a] bg-[#111112] overflow-hidden">
-                {["ÖN", "YAN", "ARKA"].map((view, i) => (
-                  <button
-                    key={view}
-                    className={`flex-1 py-3 text-xs font-black tracking-widest uppercase transition-all border-r border-[#2a2a2a] last:border-r-0 ${
-                      i === 1 ? "bg-sany-red text-white" : "text-gray-500 hover:text-white hover:bg-[#1a1a1c]"
-                    }`}
-                  >
-                    {view}
-                  </button>
-                ))}
-              </div>
-            </div>
+            <VehicleGallery 
+              images={arac.gallery || [arac.image]} 
+              capacity={arac.capacity} 
+              name={arac.name} 
+              colors={arac.colors}
+              trailers={arac.trailers}
+            />
 
             {/* RIGHT: Specs */}
             <div className="flex flex-col gap-8">

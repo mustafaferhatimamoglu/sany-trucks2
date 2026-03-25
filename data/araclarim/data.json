@@ -22,7 +22,55 @@
       { "value": "0", "unit": "CO2", "label": "EMİSYON" }
     ],
     "features": ["Sıfır Emisyon", "Akıllı Sürüş, Gerçek Kontrol", "Yüksek Dayanıklılık"],
-    "image": "/images/damperli.png"
+    "image": "/images/trucks/damperli-hero.png",
+    "gallery": [
+      "/images/trucks/damperli-hero.png",
+      "/images/trucks/damperli-gallery-1.webp",
+      "/images/trucks/damperli-gallery-2.webp",
+      "/images/trucks/damperli-gallery-3.webp",
+      "/images/trucks/damperli-gallery-4.webp",
+      "/images/trucks/damperli-ara-gorsel.png"
+    ],
+    "colors": [
+      {
+        "name": "Mavi",
+        "hex": "#0055FF",
+        "views": {
+          "Ön": "/images/trucks/damperli-mavi-on.png",
+          "Yan": "/images/trucks/damperli-mavi-yan.png"
+        }
+      },
+      {
+        "name": "Beyaz",
+        "hex": "#FFFFFF",
+        "views": {
+          "Ön": "/images/trucks/damperli-beyaz-on.png",
+          "Yan": "/images/trucks/damperli-beyaz-yan.png"
+        }
+      },
+      {
+        "name": "Kırmızı",
+        "hex": "#CC0000",
+        "views": {
+          "Ön": "/images/trucks/damperli-kirmizi-on.png",
+          "Yan": "/images/trucks/damperli-kirmizi-yan.png"
+        }
+      }
+    ],
+    "trailers": [
+      {
+        "name": "Damper Kasa",
+        "image": "/images/trucks/damperli-detail-1.png"
+      },
+      {
+        "name": "Beton Mikseri",
+        "image": "/images/trucks/damperli-detail-2.png"
+      },
+      {
+        "name": "Şasi Kabin",
+        "image": "/images/trucks/damperli-detail-3.png"
+      }
+    ]
   },
   {
     "id": "636-kwh-elektirikli-cekici",
@@ -51,7 +99,47 @@
       { "value": "636", "unit": "kWh", "label": "BATARYA KAPASİTESİ" }
     ],
     "features": ["Çift Vitesli Şanzıman", "Elektrikli Performans Mimarisi", "Uzun Menzilli Operasyon"],
-    "image": "/images/cekici.png"
+    "image": "/images/trucks/cekici-hero.png",
+    "gallery": [
+      "/images/trucks/cekici-hero.png",
+      "/images/trucks/cekici-hero-2.png",
+      "/images/trucks/cekici-gallery-4.png",
+      "/images/trucks/cekici-gallery-3.png",
+      "/images/trucks/cekici-gallery-5.png",
+      "/images/trucks/cekici-gallery-6.png"
+    ],
+    "colors": [
+      {
+        "name": "Beyaz",
+        "hex": "#FFFFFF",
+        "views": {
+          "Ön": "/images/trucks/cekici-beyaz-on.png",
+          "Yan": "/images/trucks/cekici-beyaz-yan.png"
+        }
+      },
+      {
+        "name": "Kırmızı",
+        "hex": "#CC0000",
+        "views": {
+          "Ön": "/images/trucks/cekici-kirmizi-on.png",
+          "Yan": "/images/trucks/cekici-kirmizi-yan.png"
+        }
+      }
+    ],
+    "trailers": [
+      {
+        "name": "Tenteli Dorse",
+        "image": "/images/trucks/cekici-tenteli-dorse.png"
+      },
+      {
+        "name": "Damper Dorse",
+        "image": "/images/trucks/cekici-damper-dorse.png"
+      },
+      {
+        "name": "Silobaz Dorse",
+        "image": "/images/trucks/cekici-extra.png"
+      }
+    ]
   },
   {
     "id": "elektrikli-hafif-ticari",
@@ -80,6 +168,48 @@
       { "value": "106", "unit": "kWh", "label": "BATARYA KAPASİTESİ" }
     ],
     "features": ["300 km Şehir İçi Menzil", "Çok Yönlü Kasa Tipleri", "Düşük İşletme Maliyeti"],
-    "image": "/images/hafif.png"
+    "image": "/images/trucks/hafif-hero.png",
+    "gallery": [
+      "/images/trucks/hafif-hero.png",
+      "/images/trucks/hafif-gallery-1.png",
+      "/images/trucks/hafif-gallery-2.png",
+      "/images/trucks/hafif-gallery-3.png",
+      "/images/trucks/hafif-gallery-4.png",
+      "/images/trucks/hafif-gallery-5.png",
+      "/images/trucks/hafif-gallery-6.png",
+      "/images/trucks/hafif-extra.png"
+    ],
+    "colors": [
+      {
+        "name": "Beyaz",
+        "hex": "#FFFFFF",
+        "views": {
+          "Ön": "/images/trucks/hafif-beyaz-on.png",
+          "Yan": "/images/trucks/hafif-beyaz-yan.png"
+        }
+      },
+      {
+        "name": "Kırmızı",
+        "hex": "#CC0000",
+        "views": {
+          "Ön": "/images/trucks/hafif-kirmizi-on.png",
+          "Yan": "/images/trucks/hafif-kirmizi-yan.png"
+        }
+      }
+    ],
+    "trailers": [
+      {
+         "name": "Van Tipi Kasa",
+         "image": "/images/trucks/hafif-detail-1.png"
+      },
+      {
+         "name": "Açık Kasa",
+         "image": "/images/trucks/hafif-detail-2.png"
+      },
+      {
+         "name": "Depolama (Kapalı Kasa)",
+         "image": "/images/trucks/hafif-detail-3.png"
+      }
+    ]
   }
 ]
