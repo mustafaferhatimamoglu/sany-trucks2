@@ -29,6 +29,9 @@
       "/images/trucks/damperli-gallery-2.webp",
       "/images/trucks/damperli-gallery-3.webp",
       "/images/trucks/damperli-gallery-4.webp",
+      "/images/trucks/damperli-detail-1.png",
+      "/images/trucks/damperli-detail-2.png",
+      "/images/trucks/damperli-detail-3.png",
       "/images/trucks/damperli-ara-gorsel.png"
     ],
     "colors": [
@@ -55,20 +58,6 @@
           "Ön": "/images/trucks/damperli-kirmizi-on.png",
           "Yan": "/images/trucks/damperli-kirmizi-yan.png"
         }
-      }
-    ],
-    "trailers": [
-      {
-        "name": "Damper Kasa",
-        "image": "/images/trucks/damperli-detail-1.png"
-      },
-      {
-        "name": "Beton Mikseri",
-        "image": "/images/trucks/damperli-detail-2.png"
-      },
-      {
-        "name": "Şasi Kabin",
-        "image": "/images/trucks/damperli-detail-3.png"
       }
     ]
   },
@@ -177,6 +166,9 @@
       "/images/trucks/hafif-gallery-4.png",
       "/images/trucks/hafif-gallery-5.png",
       "/images/trucks/hafif-gallery-6.png",
+      "/images/trucks/hafif-detail-1.png",
+      "/images/trucks/hafif-detail-2.png",
+      "/images/trucks/hafif-detail-3.png",
       "/images/trucks/hafif-extra.png"
     ],
     "colors": [
@@ -195,20 +187,6 @@
           "Ön": "/images/trucks/hafif-kirmizi-on.png",
           "Yan": "/images/trucks/hafif-kirmizi-yan.png"
         }
-      }
-    ],
-    "trailers": [
-      {
-         "name": "Van Tipi Kasa",
-         "image": "/images/trucks/hafif-detail-1.png"
-      },
-      {
-         "name": "Açık Kasa",
-         "image": "/images/trucks/hafif-detail-2.png"
-      },
-      {
-         "name": "Depolama (Kapalı Kasa)",
-         "image": "/images/trucks/hafif-detail-3.png"
       }
     ]
   }

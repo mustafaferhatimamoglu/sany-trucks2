@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/0viiszitvkz0h.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/logo.png","image"]
+:HL["/images/trucks/hafif-hero.png","image"]
+:HL["/images/trucks/damperli-hero.png","image"]
+:HL["/images/trucks/cekici-hero.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"araclar","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"elektrikli-hafif-ticari","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lj9n5PdYwot7l2AWEufg3"}
