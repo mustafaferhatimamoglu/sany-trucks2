@@ -14,7 +14,7 @@ export default function Iletisim() {
       {/* Upper Cover */}
       <section className="relative w-full h-[40vh] flex flex-col items-center justify-center overflow-hidden border-b border-[#2a2a2a]">
         <div className="absolute inset-0 bg-[#141415]/80 z-10"></div>
-        <div className="absolute inset-0 bg-[url('/images/iletisim-bg.jpeg')] bg-cover bg-center opacity-40 grayscale"></div>
+        <div className="absolute inset-0 bg-[url(/images/iletisim-bg.jpeg)] bg-cover bg-center opacity-40 grayscale"></div>
         <div className="relative z-20 text-center">
           <h1 className="text-5xl font-black text-white uppercase tracking-widest mb-4">
             BİZE ULAŞIN

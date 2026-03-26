@@ -4,7 +4,7 @@ export default function YetkiliServisler() {
       {/* Hero Header */}
       <section className="relative w-full h-[50vh] flex flex-col items-center justify-center overflow-hidden border-b border-[#2a2a2a]">
         <div className="absolute inset-0 bg-[#0A0A0A]/90 z-10 backdrop-blur-md"></div>
-        <div className="absolute inset-0 bg-[url('/images/iletisim-bg.jpeg')] bg-cover bg-center bg-no-repeat opacity-20 grayscale"></div>
+        <div className="absolute inset-0 bg-[url(/images/iletisim-bg.jpeg)] bg-cover bg-center bg-no-repeat opacity-20 grayscale"></div>
         <div className="relative z-20 text-center px-6">
           <span className="text-sany-red tracking-[0.4em] font-bold text-sm uppercase mb-4 block">Geniş Ağ, Anında Müdahale</span>
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-widest drop-shadow-2xl">
